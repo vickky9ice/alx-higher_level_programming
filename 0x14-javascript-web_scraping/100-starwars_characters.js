@@ -1,21 +1,21 @@
 #!/usr/bin/node
 const request = require('request');
-const epId = process.argv[2];
-const apiUrl = `https://swapi.co/api/films/${epId}`;
-request.get(apiUrl, (error, response, body) => {
+const apiUrl = process.argv[2];
+
+request.get(apiUrl, function (error, response, body) {
   if (error) {
     console.log(error);
   } else {
-    const charList = JSON.parse(body).characters;
-    for (let i = 0; i < charList.length; i++) {
-      request.get(charList[i], (err, res, body) => {
-        if (err) {
-          console.log(err);
-        } else {
-          const names = JSON.parse(body).name;
-          console.log(names);
+    let countWedge = 0;
+    const films = JSON.parse(body).results;
+    for (let i = 0; i < films.length; i++) {
+      const charList = films[i].characters;
+      for (let j = 0; j < charList.length; j++) {
+        if (charList[j] === 'https://swapi.co/api/people/18/' || charList[j] === 'http://swapi.co/api/people/18/') {
+          countWedge += 1;
         }
-      });
+      }
     }
+    console.log(countWedge);
   }
 });
