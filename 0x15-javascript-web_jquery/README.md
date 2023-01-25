@@ -1,25 +1,29 @@
-# 0x15-javascript-web_jquery
+# Higher-level programming - Python
+Module of **High-level programming** and **Python**, carried out during **Full Stack Software Engineering** at **[ALX](https://alx-intranet.hbtn.io/)**.
 
-## Description
+## Technologies
+* Shell Scripts are written in Bash 4
+* Python Scripts are written with Python 3
+* `MySQL 8.0` (version 8.0)
+* Tested on Ubuntu 20.04 LTS
 
-Project dealing with JQuery.
+## Projects
+All of the following folders are projects done during the studies:
 
-## Mandatory Tasks
-
-| Files | Description |
-| ----- | ----------- |
-| 0-script.js | Updates the text color of the HTML tag `HEADER` to red |
-| 1-script.js | Updates the text color of the HTML tag `HEADER` to red |
-| 2-script.js | Updates the text color of the HTML tag `HEADER` to red when the user clicks on the tag `DIV#red_header` |
-| 3-script.js | Updates the text color of the HTML tag `HEADER` to red when the user clicks on the tag `DIV#red_header` |
-| 4-script.js | Toggles the class of the HTML tag `HEADER` to red when the user clicks on the tag `DIV#red_header` |
-| 5-script.js | Adds a `LI` element to a list when the user clicks on the tag `DIV#add_item` |
-| 6-script.js | Updates the text of the HTML tag `HEADER` to "New Header!!!!" when the user clicks on `DIV#update_header` |
-| 7-script.js | Fetches and replaces the name of a URL |
-| 8-script.js | Fetches and lists all movies `title` of a URL |
-| 9-script.js | Fetches and prints the San Francisco wind speed from a URL |
-
-
-## Authors :black_nib:
-
-- [Adeboye Victor] (adeboyevictor18@gmail.com)
+| Project name | Description |
+| ------------ | ----------- |
+| [`0x00-hello_world`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x00-python-hello_world) | It aims to learn about variables, basics commands (print) and handle strings with **Python** |
+| [`0x01-python-if_else_loops_functions`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions) | It aims to learn about if/else statements, loops, range and functions in **Python** |
+| [`0x02-python-import_modules`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x02-python-import_modules) | It aims to learn how to import functions, how to create modules and how to use command line arguments in **Python** |
+| [`0x03-python-data_structures`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x03-python-data_structures) | It aims to learn about lists, tuples and strings in **Python** |
+| [`0x04-python-more_data_structures`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x04-python-more_data_structures) | It aims to learn about sets, dictionaries and functions to handle data structures like lambda, map, reduce and filter in **Python** |
+| [`0x05-python-exceptions`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x05-python-exceptions) | It aims to learn about exceptions, how to use them, how to use errors and how to raise them in **Python** |
+| [`0x06-python-exceptions`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x06-python-classes) | It aims to learn about object oriented programming (OOP), classes, objects, instances, methods and attributes in **Python** |
+| [`0x07-python-test_driven_development`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x07-python-test_driven_development) | It aims to learn about docstrings to create and implement tests in **Python** |
+| [`0x08-python-more_classes`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x08-python-more_classes) | It aims to learn about object oriented programming (OOP), Data Abstraction, Data Encapsulation, instances and classes attributes in **Python** |
+| [`0x09-python-everything_is_object`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x09-python-everything_is_object) | It aims to learn about object oriented programming (OOP), mutability, identity and data types in **Python** |
+| [`0x0A-python-inheritance`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x0A-python-inheritance) | It aims to learn about inheritance, superclass, baseclass and subclass in **Python** |
+| [`0x0B-python-input_output`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x0B-python-input_output) | It aims to learn how to open, read, write and append files from a script in **Python** |
+| [`0x0C-python-almost_a_circle`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle) | It aims to learn about unit testing, serialization, deserialization, JSON, `args` and `kwargs` in **Python** |
+| [`0x0D-SQL_introduction`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries) | It aims to learn about how to create a new user, manage privileges for a user, `PRIMARY KEY`, `FOREIGN KEY`, constraints, subqueries, `JOIN` and `UNION` with **MySQL** |
+| [`0x0E-SQL_more_queries`](https://github.com/Tecnophille/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries) | It aims to learn about how to create a new user, manage privileges for a user, `PRIMARY KEY`, `FOREIGN KEY`, constraints, subqueries, `JOIN` and `UNION` with **MySQL** |
